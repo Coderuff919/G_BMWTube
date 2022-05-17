@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Video</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="containerHead">
+        <div class="logoBox">
+        <img class="BMW-Logo"
+        src="https://www.carlogos.org/logo/BMW-M-logo-1920x1080.png"
+        alt="BMW Logo"/>
+        </div>
+    
+        <div class="title">
+        <h1>MyTube ~ Add New Video</h1>
+        </div>
+    </div>
+    
+    <div class="bg-img1"></div>
+    
+    <div class="topnav">
+        <nav>
+        <a href="./index.html">Home</a>
+        <a href="./pages/drift.html">Drift</a>
+        <a href="./pages/mTown.html">M Town</a>
+        <a href="./pages/performance.html">BMW Performance</a>
+        <a class="active" href="./form.html">New Video</a>
+        </nav>
+    </div>
+
+<br>
+  
+<hr class="hrColor1">
+<br>
+<br>
+<br>
+
+<div class="formBox"> 
+
+<form>
+<h2 class="h2-color">
+        <label for="videoTitle"><strong>Video Title</strong></label><br>
+        <input id="videoTitle" name="videoTitle" required type="text" size="47"
+        placeholder="Input value">
+        <br>
+        <br>
+
+
+        <label for="description"><strong>Description</strong></label><br>
+        <textarea rows="8" cols="40" type="text" placeholder="Text area content">
+        </textarea>
+        <br>
+        <br>
+    
+        <label for="video"><strong>Video</strong></label><br>
+        <input id="video" name="video" type="file">
+        <br>
+        
+        <select id="video" name="video">
+            <option value="choose">Choose Collection</option>
+            <option value="drift">Drift</option>
+            <option value="mTown">M Town</option>
+            <option value="performance">Performance Driving School</option>
+        </select>
+        <br>
+        <br>
+
+    <h3>
+        <input class="view" name="view" id="public" type="radio">
+        <label for="public"><strong>Public</strong></label>
+
+        <input class="view1" name="view" id="private" type="radio">
+        <label for="private"><strong>Private</strong></label>
+    </h3>
+
+    <br>
+    <br>
+    <br>
+
+    <button class="submit" type="submit"><strong>Upload Video</strong></button>
+   
+</h2>
+
+</form>
+</div>
+<br>
+<br>
+<br>
+
+<hr class="hrColor2">
+
+<div class="footer">
+<footer>
+    <p class="footer-p">Copyright by BMW - USA. All Rights Reserved</p>
+</footer>
+</div>
+
+</body>
+</html>
